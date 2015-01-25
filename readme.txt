@@ -15,7 +15,7 @@ File contents:
 "right_arm.slx"                                   - simple stimulus and scopes for 3 MX28 actuators (right arm - DARwInOP ID=1,3,5)
 "left_leg.slx"                                    - simple stimulus and scopes for 6 MX28 actuators (left leg - DARwInOP ID=8,10,12,14,16,18)
 "right_leg.slx"                                   - simple stimulus and scopes for 6 MX28 actuators (right leg - DARwInOP ID=7,9,11,13,15,17)
-"robot.slx"                                       - advanced command (Stateflow chart) for the entire robot
+"robot_stand.slx"                                 - advanced command (Stateflow chart) for the entire robot fixed on its stand
 "STL"                                             - directory containing 3D models for displaying the robot inside Matlab
 "instrumentation"                                 - directory containing instrumentation and modeling details
 "instrumentation/Identification du MX28 FR.pdf"   - results and explanations obtained during all the tests
