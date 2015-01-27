@@ -8,7 +8,8 @@ The models are made using Matlab R2014b. Most of them, excepting MX28_simple.slx
 
 File contents:
 "MX28init.m"                                      - initialisation script for all types and constants required by MX28 simulink models
-"CM730init.m"                                     - initialisation script for all types and constants required by CM730 (robot) simulink models
+"CM730init.m"                                     - initialisation script for all types and constants required by CM730 (inside robot) simulink models
+"FSRinit.m"                                       - initialisation script for all types and constants required by FSR (inside robot) simulink models
 "robot_init.m"                                    - initialisation script for all types and constants required by robot simulink models (call the 2 above scripts)
 "MX28_simple.slx"                                 - simple continuous-time equivalent model of the MX28 actuator
 "MX28.slx"                                        - generic discrete-time model of the MX28 actuator, this model is referenced by the following models
