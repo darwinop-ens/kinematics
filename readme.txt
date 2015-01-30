@@ -11,7 +11,7 @@ Requirements:
 The models are made using Matlab R2014b.
 Models MX28.slx and MX28_simple.slx requires Simulink only.
 Models MX28kinematics.slx, foot.slx, right_arm.slx, right_left.slx and robot_stand.slx require Simulink, SimScape and SimMechanics optional toolboxes.
-Model  robot_rk.slx requires Simulink, SimScape, SimMechanics and Stateflow optional toolboxes.
+Models robot_rk.slx and robot_action.slx require Simulink, SimScape, SimMechanics and Stateflow optional toolboxes.
 
 The simulation models are implemented using the ODE45 solver to ensure fast and accurate results.
 The instrumentation models are executed with discrete sample times identified from the actuators and from the robot.
@@ -23,6 +23,7 @@ initialisation scripts
 "MX28init.m"                                      - initialisation script for all types and constants required by MX28 simulink models
 "CM730init.m"                                     - initialisation script for all types and constants required by CM730 (inside robot) simulink models
 "FSRinit.m"                                       - initialisation script for all types and constants required by FSR (inside robot) simulink models
+"action_init.m"                                   - initialisation script for all types and constants required by robot_action.slx
 "robot_init.m"                                    - initialisation script for all types and constants required by robot simulink models (invoke all the above scripts)
 
 MX28 models
@@ -39,6 +40,7 @@ simple kinematic models
 advanced robot models
 "robot_stand.slx"                                 - advanced command for the entire robot fixed on its stand
 "robot_rk.slx"                                    - advanced command (Stateflow chart) for the entire robot doing a "right kick"
+"robot_action.slx"                                - advanced command (Stateflow chart) for all predefined moves (Roboplus Motion files)
 
 3D display files
 "STL"                                             - directory containing 3D models for displaying the robot inside Matlab
